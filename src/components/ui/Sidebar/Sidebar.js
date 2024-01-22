@@ -1,6 +1,6 @@
 "use client"
 import sideNews from '@/assets/sedebar.png';
-import { Box, Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
+import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
 import Image from "next/image";
 
 const Sidebar = () => {
@@ -26,9 +26,6 @@ const Sidebar = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
-        <Button className="bg-orange-600 text-white">Details</Button>
-        </CardActions>
        </Card>
        
         </Box>

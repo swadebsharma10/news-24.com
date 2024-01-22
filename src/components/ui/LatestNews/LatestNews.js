@@ -1,6 +1,6 @@
 "use client"
 
-import { Box, Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 
 import topNews from '@/assets/TopNews.png';
 import Image from "next/image";
@@ -28,9 +28,7 @@ const LatestNews = () => {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-      <Button className="bg-orange-600 text-white">Details</Button>
-      </CardActions>
+    
            </Card>
            <Grid className="my-3" container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
            <Grid item xs={6}>
@@ -53,9 +51,7 @@ const LatestNews = () => {
                </Typography>
              </CardContent>
            </CardActionArea>
-           <CardActions>
-           <Button className="bg-orange-600 text-white">Details</Button>
-           </CardActions>
+        
           </Card>
            </Grid>
            <Grid item xs={6}>
@@ -78,9 +74,7 @@ const LatestNews = () => {
                </Typography>
              </CardContent>
            </CardActionArea>
-           <CardActions>
-           <Button className="bg-orange-600 text-white">Details</Button>
-           </CardActions>
+        
           </Card>
            </Grid>
            <Grid item xs={6}>
@@ -103,9 +97,7 @@ const LatestNews = () => {
                </Typography>
              </CardContent>
            </CardActionArea>
-           <CardActions>
-           <Button className="bg-orange-600 text-white">Details</Button>
-           </CardActions>
+          
           </Card>
            </Grid>
            <Grid item xs={6}>
@@ -128,9 +120,7 @@ const LatestNews = () => {
                </Typography>
              </CardContent>
            </CardActionArea>
-           <CardActions>
-           <Button className="bg-orange-600 text-white">Details</Button>
-           </CardActions>
+          
           </Card>
            </Grid>
            
