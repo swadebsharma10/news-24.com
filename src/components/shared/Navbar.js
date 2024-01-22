@@ -12,6 +12,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Link from 'next/link';
+import Header from './Header';
 
 const navItems = [
     {
@@ -46,6 +47,8 @@ const Navbar = () => {
 
  
   return (
+    <>
+    <Header></Header>
     <AppBar position="static" className='bg-black'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -80,6 +83,7 @@ const Navbar = () => {
         </Toolbar>
       </Container>
     </AppBar>
+    </>
   );
 }
 export default Navbar;
